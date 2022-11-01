@@ -35,7 +35,7 @@ func main() {
 }
 ```
 
-## Expiretion
+## Expiration
 
 ```go
 id.IsExpired()
