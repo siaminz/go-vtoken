@@ -8,7 +8,7 @@
 Note that you need to include the **v** in the version tag.
 
 ```
-$ go get github.com/ItsAminZamani/go-vtoken@v0.1.0
+$ go get github.com/ItsAminZamani/go-vtoken@v0.2.0
 ```
 
 ```go
@@ -39,4 +39,23 @@ func main() {
 
 ```go
 id.IsExpired()
+```
+
+## Simple Token
+Generate a token with custom length. this kind of tokens can't be verified.
+
+```go
+package main
+
+import (
+    "fmt"
+    "time"
+
+    vtoken "github.com/ItsAminZamani/go-vtoken"
+)
+
+func main() {
+    token := vtoken.GenerateSimpleToken(length=5)
+    fmt.Println(token)
+}
 ```
