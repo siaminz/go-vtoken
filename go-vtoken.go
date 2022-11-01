@@ -9,6 +9,7 @@ import (
 	"time"
 
 	"github.com/ItsAminZamani/go-vtoken/pkg/crypto"
+	"github.com/ItsAminZamani/go-vtoken/pkg/token"
 	"github.com/ItsAminZamani/go-vtoken/pkg/types"
 )
 
@@ -38,6 +39,11 @@ func Verify(token string) (*types.ID, error) {
 		return nil, err
 	}
 	return id, nil
+}
+
+// Generate a random string of A-Z, a-z, 0-9 characters with custom length, this tokens can not be verified.
+func GenerateSimpleToken(length int) string {
+	return token.Generate(length)
 }
 
 // Set Secret Key
