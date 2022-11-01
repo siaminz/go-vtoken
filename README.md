@@ -31,7 +31,7 @@ func main() {
     if err != nil {
 		panic(err)
 	}
-    fmt.Println(id.GetIdentifier)
+    fmt.Println(id.GetIdentifier())
 }
 ```
 
