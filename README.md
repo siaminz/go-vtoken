@@ -22,7 +22,7 @@ import (
 )
 
 func main() {
-    token, err := vtoken.New(identifier="user@domain.com", expires=time.Hour)
+    token, err := vtoken.New("user@domain.com", time.Hour)
     if err != nil {
 		panic(err)
 	}
@@ -55,7 +55,7 @@ import (
 )
 
 func main() {
-    token := vtoken.GenerateSimpleToken(length=5)
+    token := vtoken.GenerateSimpleToken(5)
     fmt.Println(token)
 }
 ```

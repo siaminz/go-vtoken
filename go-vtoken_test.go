@@ -38,3 +38,10 @@ func TestVerify(t *testing.T) {
 		t.Error("Token is expired")
 	}
 }
+
+func TestGenerateSimpleToken(t *testing.T) {
+	token := GenerateSimpleToken(10)
+	if token == "" {
+		t.Error("Token is empty")
+	}
+}
