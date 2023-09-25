@@ -2,13 +2,12 @@
 
 ## Usage
 
-
 ### Get the go-vtoken module
 
 Note that you need to include the **v** in the version tag.
 
 ```
-$ go get github.com/siaminz/go-vtoken@v0.2.0
+$ go get github.com/siaminz/go-vtoken@v0.1.0
 ```
 
 ```go
@@ -42,6 +41,7 @@ id.IsExpired()
 ```
 
 ## Simple Token
+
 Generate a token with custom length. this kind of tokens can't be verified.
 
 ```go
