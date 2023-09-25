@@ -7,7 +7,7 @@
 Note that you need to include the **v** in the version tag.
 
 ```
-$ go get github.com/siaminz/go-vtoken@v0.1.0
+$ go get github.com/siaminz/go-vtoken@v0.0.1
 ```
 
 ```go
