@@ -1,4 +1,4 @@
-# github.com/ItsAminZamani/go-vtoken
+# github.com/siaminz/go-vtoken
 
 ## Usage
 
@@ -8,7 +8,7 @@
 Note that you need to include the **v** in the version tag.
 
 ```
-$ go get github.com/ItsAminZamani/go-vtoken@v0.2.0
+$ go get github.com/siaminz/go-vtoken@v0.2.0
 ```
 
 ```go
@@ -18,7 +18,7 @@ import (
     "fmt"
     "time"
 
-    vtoken "github.com/ItsAminZamani/go-vtoken"
+    vtoken "github.com/siaminz/go-vtoken"
 )
 
 func main() {
@@ -51,7 +51,7 @@ import (
     "fmt"
     "time"
 
-    vtoken "github.com/ItsAminZamani/go-vtoken"
+    vtoken "github.com/siaminz/go-vtoken"
 )
 
 func main() {

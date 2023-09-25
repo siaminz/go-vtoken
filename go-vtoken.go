@@ -8,9 +8,9 @@ package vtoken
 import (
 	"time"
 
-	"github.com/ItsAminZamani/go-vtoken/pkg/crypto"
-	"github.com/ItsAminZamani/go-vtoken/pkg/token"
-	"github.com/ItsAminZamani/go-vtoken/pkg/types"
+	"github.com/siaminz/go-vtoken/pkg/crypto"
+	"github.com/siaminz/go-vtoken/pkg/token"
+	"github.com/siaminz/go-vtoken/pkg/types"
 )
 
 var SECRET string = "ase&1*~#^2^#s0^=)^^7%b34"
